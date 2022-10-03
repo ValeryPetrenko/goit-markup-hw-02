@@ -1,6 +1,6 @@
 body {
   font-family: open sans, sans-serif;
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
 }
 
 
@@ -83,15 +83,14 @@ body {
 }
 
 .header-btn {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
+  color:#ffffff;
+  background-color:#2196F3;
+
+}
+
+.button.primary {
+  color: #212121;
+  background-color: #ffffff;
 }
 
 .solutions-list h3 {
@@ -157,7 +156,7 @@ font-weight: 500;
   color: #2196F3;
 }
 
-.logo-footer-stidio{
+.logo-footer-studio{
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -169,6 +168,8 @@ font-weight: 500;
   background-color: #2F303A;
 }
 .info-address {
+  font-family: inherit;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -177,6 +178,8 @@ font-weight: 500;
 }
 
 .info-email {
+  font-family: inherit;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -185,6 +188,8 @@ font-weight: 500;
 }
 
 .info-tel {
+ font-family: inherit;
+ font-style: normal;
  font-weight: 400;
  font-size: 14px;
  line-height: 1.71;
@@ -192,3 +197,18 @@ font-weight: 500;
  color: rgba(255, 255, 255, 0.6);
 }
 
+.ex-item h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.ex-item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
