@@ -2,7 +2,7 @@ body {
   font-family: Roboto, sans-serif;
   background-color: var(--main-background-color);
   color: var(--second-title-color) ;
-  font-size: 14 px;
+  font-size: 14px;
 }
 
 :root {
@@ -112,6 +112,7 @@ body {
 .button.primary {
   color: #212121;
   background-color: var(--main-title-color);
+  cursor: pointer;
 }
 
 .button.primary:hover{
@@ -125,7 +126,6 @@ body {
 }
 
 .solutions-list h3 {
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -143,12 +143,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-title-color)
 }
-.team-title {
+.section-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color:var(--second-title-color)
 }
 .team {
   background-color: var(--third-background-color);
@@ -163,8 +163,7 @@ body {
   color: var(--second-title-color)
 }
 
-.team-title {
-  font-weight: 400;
+.team-position {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -207,6 +206,14 @@ body {
   color:var(--contacts-color);
 }
 
+.info-email:hover{
+  color: var(--third-title-color)
+}
+
+.info-email:focus {
+  color: var(--third-title-color)
+}
+
 .info-tel {
  font-style: normal;
  line-height: 1.71;
@@ -214,14 +221,22 @@ body {
  color: var(--contacts-color);
 }
 
-.ex-item h2 {
+.info-tel:hover {
+  color: var(--third-title-color)
+}
+
+.info-tel:focus {
+  color: var(--third-title-color)
+}
+
+.project-item h2 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color:var(--second-title-color)
 }
 
-.ex-item p {
+.project-item p {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
